@@ -701,66 +701,58 @@
                         JotForm.onSubmissionError = "jumpToFirstError";
                     });
                     </script>
-                    <form class="jotform-form" action="https://submit.jotformeu.com/submit/63511918198362/"
-                          method="post" name="form_63511918198362" id="63511918198362" accept-charset="utf-8">
+                    <form class="jotform-form form-email" action="https://submit.jotformeu.com/submit/63511918198362/"
+                          method="post" name="form_63511918198362" id="63511918198362" accept-charset="utf-8"
+                          data-error="Пожалуйста исправьте ошибки">
                         <input type="hidden" name="formID" value="63511918198362"/>
                         <div class="form-all">
                             <ul class="form-section page-section">
-                                <li class="form-line jf-required" data-type="control_textbox" id="id_10">
-                                    <div id="cid_10" class="form-input jf-required"><input type="text"
-                                                                                           class=" form-textbox validate[required]"
-                                                                                           data-type="input-textbox"
-                                                                                           id="input_10"
-                                                                                           name="q10_input10"
-                                                                                           placeholder="Имя"
-                                                                                           value=""/></div>
-                                </li>
-                                <li class="form-line" data-type="control_dropdown" id="id_11">
-                                    <div id="cid_11" class="form-input jf-required">
-                                        <select class="form-dropdown"
-                                                id="input_11"
-                                                name="q11_input11">
-                                            <option selected value="Запрос на получение эксклюзивного каталога ">
-                                                Запрос на
-                                                получение эксклюзивного каталога
-                                            </option>
-                                            <option value="Вопрос в службу технической поддержки">
-                                                Вопрос в службу
-                                                технической поддержки
-                                            </option>
-                                            <option value="Общие вопросы">
-                                                Общие вопросы
-                                            </option>
-                                        </select>
-                                    </div>
-                                </li>
-                                <li class="form-line jf-required" data-type="control_email" id="id_7">
-                                    <div id="cid_7" class="form-input jf-required">
-                                        <input type="text"
-                                               class=" form-textbox validate[required, Email]"
-                                               id="input_7" name="q7_input7"
-                                               placeholder="Адрес эл. почты"
-                                               value=""/>
-                                    </div>
-                                </li>
-                                <li class="form-line jf-required" data-type="control_textarea" id="id_4">
-                                    <div id="cid_4" class="form-input jf-required">
+                                <div id="cid_10" class="form-input jf-required">
+                                    <input type="text"
+                                           class=" form-textbox validate[required] validate-required"
+                                           data-type="input-textbox"
+                                           id="input_10"
+                                           name="q10_input10"
+                                           placeholder="Имя"
+                                           value=""/>
+                                </div>
+                                <div id="cid_11" class="form-input jf-required select-option">
+                                    <i class="ti-angle-down"></i>
+                                    <select class="form-dropdown"
+                                            id="input_11"
+                                            name="q11_input11">
+                                        <option selected value="Запрос на получение эксклюзивного каталога ">
+                                            Запрос на
+                                            получение эксклюзивного каталога
+                                        </option>
+                                        <option value="Вопрос в службу технической поддержки">
+                                            Вопрос в службу
+                                            технической поддержки
+                                        </option>
+                                        <option value="Общие вопросы">
+                                            Общие вопросы
+                                        </option>
+                                    </select>
+                                </div>
+                                <div id="cid_7" class="form-input jf-required">
+                                    <input type="text"
+                                           class=" form-textbox validate[required, Email] validate-required"
+                                           id="input_7" name="q7_input7"
+                                           placeholder="Адрес эл. почты"
+                                           value=""/>
+                                </div>
+                                <div id="cid_4" class="form-input jf-required">
                                         <textarea id="input_4"
-                                                  class="form-textarea validate[required]"
+                                                  class="form-textarea validate[required] validate-required"
                                                   name="q4_input4" cols="28" placeholder="Сообщение"
                                                   rows="6"></textarea>
-                                    </div>
-                                </li>
-                                <li class="form-line" data-type="control_button" id="id_2">
-                                    <div id="cid_2" class="form-input-wide">
-                                        <div style="text-align:center;" class="form-buttons-wrapper">
-                                            <button id="input_2" type="submit"
-                                                    class="form-submit-button form-submit-button-none"
-                                                    data-component="button"> Отправить сообщение
-                                            </button>
-                                        </div>
-                                    </div>
-                                </li>
+                                </div>
+                                <div id="cid_2" class="form-input-wide">
+                                    <button id="input_2" type="submit"
+                                            class="form-submit-button form-submit-button-none"
+                                            data-component="button"> Отправить сообщение
+                                    </button>
+                                </div>
                                 <li style="display:none">
                                     <input type="text" name="website" value=""/>
                                 </li>
